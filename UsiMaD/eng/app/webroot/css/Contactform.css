@@ -1,0 +1,95 @@
+label {
+    display: block;
+    font-size: 12px;
+    margin: 10px 0 5px 0;
+}
+
+form .required label::after {
+    color: black;
+    content: ' *';
+    display: inline;
+}
+
+input, textarea {
+    padding: 8px;
+    border: solid 1px #E5E5E5;
+    font: normal 12px Verdana, Tahoma, sans-serif;
+    width: 200px;
+    background: #FFFFFF url('form_background.png') left top repeat-x;/*Mimic Background Property in Internet Explorer since IE 6,7,8 does not support CSS3*/
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;/*0.1 actually means 10 %*/
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+textarea { 
+    width: 98%;
+    height: 150px;
+    line-height: 150%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #999;
+}
+
+.error input, .error textarea {
+    border: 1px solid red;
+}
+
+div.error-message {
+    font-size: 10px;
+    margin-bottom: 15px;
+    background: #fff url(../img/validation_error.png) left no-repeat;
+    padding-left: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+    -moz-box-shadow:0 0 8px lightblue;
+    -webkit-box-shadow:0 0 8px lightblue;
+    box-shadow:0 0 8px lightblue;
+}
+
+.error input, div#main div#content div.blog-post div#blog-post-comment-area .error textarea {
+    border: 1px solid red;
+}
+
+div.error-message {
+    font-size: 10px;
+    margin-bottom: 15px;
+    background: #fff url(../img/validation_error.png) left no-repeat;
+    padding-left: 18px;
+}
+
+.submit input {
+    width: auto;
+    padding: 10px 14px;
+    background: #222222;
+    font-size: 14px;
+    color: #FFFFFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor:pointer;
+}
+#form-div { 
+    float: left;
+    -moz-border-radius:12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    padding:15px;
+    background-color:#EEEEEE;
+    width: 60%;
+}
+#addr-div { 
+    height: 520px; 
+    -moz-border-radius:12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    padding:10px;
+    background-color:#EEEEEE;
+}
+#wrapper {
+margin:0 auto;
+}

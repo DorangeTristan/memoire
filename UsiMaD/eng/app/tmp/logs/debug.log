@@ -1,0 +1,151 @@
+2013-11-23 17:17:00 Debug: Notice (8): Indirect modification of overloaded property ParametersController::$Article has no effect in [C:\wamp\www\memoire\eng\app\Controller\ParametersController.php, line 24]
+Trace:
+ParametersController::index() - APP\Controller\ParametersController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-23 17:17:07 Debug: Notice (8): Indirect modification of overloaded property ParametersController::$Article has no effect in [C:\wamp\www\memoire\eng\app\Controller\ParametersController.php, line 24]
+Trace:
+ParametersController::index() - APP\Controller\ParametersController.php, line 24
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-23 17:22:14 Debug: Notice (8): Indirect modification of overloaded property ParametersController::$Article has no effect in [C:\wamp\www\memoire\eng\app\Controller\ParametersController.php, line 7]
+Trace:
+ParametersController::index() - APP\Controller\ParametersController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-23 17:22:23 Debug: Notice (8): Indirect modification of overloaded property ParametersController::$Article has no effect in [C:\wamp\www\memoire\eng\app\Controller\ParametersController.php, line 7]
+Trace:
+ParametersController::index() - APP\Controller\ParametersController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-23 17:23:36 Debug: Notice (8): Indirect modification of overloaded property ParametersController::$Article has no effect in [C:\wamp\www\memoire\eng\app\Controller\ParametersController.php, line 7]
+Trace:
+ParametersController::index() - APP\Controller\ParametersController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-23 17:25:20 Debug: Notice (8): Indirect modification of overloaded property ParametersController::$Article has no effect in [C:\wamp\www\memoire\eng\app\Controller\ParametersController.php, line 7]
+Trace:
+ParametersController::index() - APP\Controller\ParametersController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-23 17:30:18 Debug: Notice (8): Indirect modification of overloaded property ParametersController::$Article has no effect in [C:\wamp\www\memoire\eng\app\Controller\ParametersController.php, line 7]
+Trace:
+ParametersController::index() - APP\Controller\ParametersController.php, line 7
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 486
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 187
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-24 00:09:18 Debug: Notice (8): Undefined variable: foo in [C:\wamp\www\memoire\eng\app\View\Parameters\index.ctp, line 19]
+Trace:
+include - APP\View\Parameters\index.ctp, line 19
+View::_evaluate() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 947
+View::_render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 909
+View::render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 471
+Controller::render() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-24 00:27:01 Debug: Notice (8): Undefined variable: form in [C:\wamp\www\memoire\eng\app\View\Parameters\index.ctp, line 25]
+Trace:
+include - APP\View\Parameters\index.ctp, line 25
+View::_evaluate() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 947
+View::_render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 909
+View::render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 471
+Controller::render() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-24 00:27:44 Debug: Notice (8): Undefined variable: form in [C:\wamp\www\memoire\eng\app\View\Parameters\index.ctp, line 25]
+Trace:
+include - APP\View\Parameters\index.ctp, line 25
+View::_evaluate() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 947
+View::_render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 909
+View::render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 471
+Controller::render() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2013-11-24 00:27:51 Debug: Notice (8): Undefined variable: form in [C:\wamp\www\memoire\eng\app\View\Parameters\index.ctp, line 25]
+Trace:
+include - APP\View\Parameters\index.ctp, line 25
+View::_evaluate() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 947
+View::_render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 909
+View::render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 471
+Controller::render() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2014-02-04 15:40:08 Debug: Notice (8): Undefined variable: languages in [C:\wamp\www\memoire\eng\app\View\Parameters\index.ctp, line 72]
+Trace:
+include - APP\View\Parameters\index.ctp, line 72
+View::_evaluate() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 947
+View::_render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 909
+View::render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 471
+Controller::render() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2014-02-04 15:41:25 Debug: Notice (8): Undefined variable: languages in [C:\wamp\www\memoire\eng\app\View\Parameters\index.ctp, line 72]
+Trace:
+include - APP\View\Parameters\index.ctp, line 72
+View::_evaluate() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 947
+View::_render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 909
+View::render() - C:\wamp\www\ww\eng\lib\Cake\View\View.php, line 471
+Controller::render() - C:\wamp\www\ww\eng\lib\Cake\Controller\Controller.php, line 948
+Dispatcher::_invoke() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - C:\wamp\www\ww\eng\lib\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 92
+
+2014-02-13 17:47:23 Debug: 
+From: dorange.tristan@gmail.com
+Reply-To: dorange.tristan@gmail.com
+To: ww1ww2.2013@gmail.com
+X-Mailer: CakePHP Email
+Date: Thu, 13 Feb 2014 17:47:22 +0100
+Message-ID: <52fcf71a020444f481291884b4188753@localhost>
+Subject: Contact from site
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Name: : Dorange Tristan
+Email: : dorange.tristan@gmail.com
+
+Message: :
+Bonjour,ceci est un test d'envoie de mail.
+
+
+
+----------------------------
+Sent from http://localhost/memoire/eng/
+

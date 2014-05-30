@@ -1,0 +1,72 @@
+a.focus{
+    color: white;
+    text-decoration: none;
+}
+
+#entete{
+    font-size: 10px;
+    display: block; 
+    background-color: #666666; 
+    color: #bbbbbb; 
+    height: 18px;
+}
+
+.chemin{
+    text-decoration: none;
+    color: #bbbbbb;
+}
+a.chemin:hover {color: #ffffff; text-decoration: none; }
+
+/* Permet de mettre sur une ligne les radio buttons et leur label */
+input[type=radio] {
+    float:left;
+    margin-left:20px;
+    width:20px;
+}
+
+/* Style pour l'affichage des images dans le menu "Parameter" */
+div.span5.divImage{
+    word-wrap:break-word;
+    display:block;
+    margin-left:0px;
+    margin-top:5px;
+}
+#imgAui{
+    float:left;
+    width:100px;
+    height:80px;
+}
+
+/* Style pour l'onglet "Tree" */
+#imgTree{
+    margin:auto;
+    padding: 5px;
+    display:block;
+    border: 1px solid;
+    border-color: #192839;
+}
+.zoomtop {
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.zoomimg {
+    background-color: #192839;
+    color: #FFF;
+    font-size: 110%;
+    font-weight: 700;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    width: 140px;
+    cursor: pointer;
+    margin: auto;
+}
+#validate{
+    height: 20px;
+    width: 20px;
+}
+#notValidate{
+    height: 20px;
+    width: 20px;
+}

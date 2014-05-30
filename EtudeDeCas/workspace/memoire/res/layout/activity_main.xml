@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent" 
+	  android:orientation="vertical">
+	
+	  <TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="Do you want the data to display are : "
+	    android:textStyle="bold"
+	    android:gravity="left"
+	  />
+	  <RadioGroup
+	    android:id="@+id/group1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	  >
+	    <RadioButton 
+	      android:id="@+id/combined"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Combined"
+	    />
+	    <RadioButton 
+	      android:id="@+id/separated"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Separated"
+	    />
+	  </RadioGroup>
+	  <TextView 
+	    android:id="@+id/textCombined"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="If the data are combined, must they be displayed "
+	    android:textStyle="bold"
+	    android:gravity="left"
+	  />
+	  <RadioGroup
+	    android:id="@+id/groupCombined"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	  >
+	    <RadioButton 
+	      android:id="@+id/onebyone"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="One by One"
+	    />
+	    <RadioButton 
+	      android:id="@+id/manyatone"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Many at one"
+	    />
+	    <RadioButton 
+	      android:id="@+id/allatonce"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="All at once"
+	    />
+	  </RadioGroup>
+	  <TextView 
+	    android:id="@+id/textOneByOne"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="If the data are combined one by one, must they be displayed like"
+	    android:textStyle="bold"
+	    android:gravity="left"
+	  />
+	  <RadioGroup
+	    android:id="@+id/groupOneByOne"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	  >
+	    <RadioButton 
+	      android:id="@+id/extendedtasklist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Extended task list"
+	    />
+	    <RadioButton 
+	      android:id="@+id/reducedtasklist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Reduced task list"
+	    />
+	    <RadioButton 
+	      android:id="@+id/tabbedlist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Tabbed list"
+	    />
+	    <RadioButton 
+	      android:id="@+id/singleexpansionlist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Single expansion list"
+	    />
+	  </RadioGroup>
+	  <TextView 
+	    android:id="@+id/textManyAtOne"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="If the data are combined many at one, they will be displayed as 'Multiple expansion list'."
+	    android:textStyle="bold"
+	    android:gravity="left"
+	  />
+	  <TextView 
+	    android:id="@+id/textAllAtOnce"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:text="If the data are combined all at once, must they be displayed like "
+	    android:textStyle="bold"
+	    android:gravity="left"
+	  />
+	  <RadioGroup
+	    android:id="@+id/groupAllAtOnce"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	  >
+	    <RadioButton 
+	      android:id="@+id/separatedlist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Separated list"
+	    />
+	    <RadioButton 
+	      android:id="@+id/groupedlist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Grouped list"
+	    />
+	    <RadioButton 
+	      android:id="@+id/bulletedlist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Bulleted list"
+	    />
+	    <RadioButton 
+	      android:id="@+id/orderedlist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Ordered list"
+	    />
+	    <RadioButton 
+	      android:id="@+id/spacedlist"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Spaced list"
+	    />
+	    <RadioButton 
+	      android:id="@+id/table"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:text="Table"
+	    />
+	  </RadioGroup>
+	  <Button
+	     android:id="@+id/buttonView"
+	     android:layout_height="wrap_content"
+	     android:layout_width="wrap_content"
+	     android:text="View"
+	  />
+	</LinearLayout>
+</ScrollView>
